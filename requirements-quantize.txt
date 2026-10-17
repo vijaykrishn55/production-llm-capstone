@@ -1,0 +1,3 @@
+# GPU-only post-training AWQ quantization, using the vLLM project's supported path.
+-r requirements-train.txt
+llmcompressor>=0.7

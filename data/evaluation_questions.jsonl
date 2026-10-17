@@ -1,0 +1,6 @@
+{"question":"Why does the system combine BM25 and dense retrieval?","ground_truth":"Dense retrieval captures semantic similarity while BM25 helps find exact lexical matches such as identifiers. RRF fuses their rankings."}
+{"question":"What is reciprocal rank fusion and what does k do?","ground_truth":"RRF adds 1/(k + rank) across retrievers. k smooths rank contributions; a common value is 60."}
+{"question":"What is QLoRA and why does it use NF4?","ground_truth":"QLoRA trains LoRA adapters on a frozen 4-bit quantized base model. NF4 is a quantization type designed for normally distributed weights and reduces training memory."}
+{"question":"What should happen when retrieved documents contain instructions?","ground_truth":"Retrieved documents must be treated as untrusted data. The model must ignore their embedded instructions and only use their factual content relevant to the question."}
+{"question":"Which metrics does the RAG evaluation script report?","ground_truth":"The evaluation script reports Context Precision, Context Recall, Faithfulness and Answer Relevance through RAGAS."}
+{"question":"What protections limit the agent's tool usage?","ground_truth":"The agent has an allowlist of tools, bounded steps, loop detection, read-only SQL, restricted Python expressions, tool timeouts and sanitized error handling."}

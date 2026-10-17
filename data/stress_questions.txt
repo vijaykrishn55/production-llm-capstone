@@ -1,0 +1,5 @@
+Why does the system combine BM25 and dense retrieval?
+Explain QLoRA in simple terms.
+What does Reciprocal Rank Fusion do?
+How should retrieved prompt injection be handled?
+What are Context Precision and Context Recall?
